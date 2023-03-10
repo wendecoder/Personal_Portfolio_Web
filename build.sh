@@ -7,4 +7,4 @@ npm install
 npm run build
 
 # Start Express server
-npm run start
+node server.js
