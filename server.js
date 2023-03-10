@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 const bodyParser = require('body-parser');
 const path = require('path');
 
-// server used to send send emails
+
 const app = express();
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
